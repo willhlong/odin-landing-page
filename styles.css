@@ -7,11 +7,14 @@ ul {
     list-style-type: none;
 }
 
+/* CSS styles for header */
 .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #1f2937;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header-links {
@@ -25,5 +28,52 @@ ul {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
+}
 
+/* CSS styles for Section 1 */
+.section-one-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 400px;
+    gap: 100px;
+}
+
+.section-one-left {
+    flex: 1;
+}
+
+.section-one-right {
+    flex: 1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    background: gray;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    padding: 8px;
 }
