@@ -139,3 +139,33 @@ img {
     padding-right: 30%;
     font-size: 1.5em;
 }
+
+/* Section four styles */
+.section-four {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 25%;
+    border-radius: 5px;
+    color: #f9faf8;
+    gap: 200px;
+}
+
+.section-four h2 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.section-four p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.section-four button {
+    height: 40px;
+    border-style: solid;
+    border-color: #f9faf8;
+
+}
